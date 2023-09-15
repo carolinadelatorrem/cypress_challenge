@@ -1,0 +1,12 @@
+{
+    "locationToasterBody": "#glow-toaster-body",
+    "locationModal": "#nav-global-location-popover-link",
+    "zipcodeInput": "#GLUXZipUpdateInput",
+    "applyZipcodeButton": "span[data-action='GLUXPostalUpdateAction']",
+    "continueButton": ".a-popover-footer span[data-action='GLUXConfirmAction']",
+    "searchBarInput": "#twotabsearchtextbox",
+    "sortByDropdown": "form>span[class='a-dropdown-container']",
+    "sortLowToHighOption": "#s-result-sort-select_1",
+    "sortHighToLowOption": "#s-result-sort-select_2",
+    "productTitles": "div[class*='a-section a-spacing'] h2>a"
+}

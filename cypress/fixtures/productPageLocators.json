@@ -1,0 +1,4 @@
+{
+    "addToCartButton": "#add-to-cart-button",
+    "goToCartButton": "#sw-gtc > .a-button-inner > .a-button-text"
+}

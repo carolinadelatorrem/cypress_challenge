@@ -1,0 +1,13 @@
+{
+    "shoppingCartPricesTexts": "div[data-name='Active Items'] span[class*='sc-price']",
+    "quantityDropdown": ".a-button.a-button-dropdown.quantity",
+    "quantityTwoOption": "li[aria-labelledby='quantity_2']",
+    "deleteButton": "span[data-action='delete']>span",
+    "removedItemConfirmationMsg": ".sc-list-item-removed-msg",
+    "saveForLaterButton": ".a-row.sc-action-links span[data-feature-id='save-for-later']>span",
+    "deliverToText": "#glow-ingress-line2",
+    "activeItemsList": "div[data-name='Active Items']",
+    "currentQuantityOnCartProduct": "span[data-a-class='quantity'] .a-dropdown-prompt",
+    "savedForLaterTitleText": "#sc-saved-cart-list-caption-text",
+    "savedForLaterList": "#sc-saved-cart-items .sc-list-item-content"
+}
