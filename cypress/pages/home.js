@@ -27,10 +27,8 @@ class HomePage {
     sortByHighToLow() {
         cy.fixture("homeLocators.json").then((locator)=>{
             cy.get(locator.sortByDropdown)
-            //.wait(5000)
             .click()
             cy.get(locator.sortHighToLowOption)
-            //.wait(3000)
             .click()
         })
     }
@@ -39,7 +37,6 @@ class HomePage {
         cy.fixture("homeLocators.json").then((locator)=>{
             cy.get(locator.sortByDropdown)
             .click()
-            cy.wait(5000)
             cy.get(locator.sortLowToHighOption)
             .click()
         })
