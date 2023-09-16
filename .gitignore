@@ -4,3 +4,4 @@ node_modules
 package-lock.json
 e2e/screenshots/
 e2e/videos/
+cypress/screenshots/
