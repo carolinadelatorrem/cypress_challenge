@@ -20,13 +20,13 @@ When("I send a POST request for resources", () => {
 });
 
 When("I send a GET request for characters second page", () => {
-    queryParam = '?page=2'
+    let queryParam = '?page=2'
     cy.getReqWithPath(url,'character', queryParam,'positive')
     .as('response');
 });
 
 When("I send a GET request for characters invalid page", () => {
-    queryParam = '?page=45'
+    let queryParam = '?page=45'
     cy.getReqWithPath(url,'character', queryParam,'negative')
     .as('response');
 });

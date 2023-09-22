@@ -37,11 +37,11 @@ Then("the headers correspond with basic request", () => {
 Then("the requested resources are returned", () => {
     cy.get('@response').should((response) => {
         expect(response.body).to.have.property('characters');
-        expect(response.body['characters']).to.eq(url+"/character");
+        expect(response.body['characters']).to.eq(url+"character");
         expect(response.body).to.have.property('locations');
-        expect(response.body['locations']).to.eq(url+"/location");
+        expect(response.body['locations']).to.eq(url+"location");
         expect(response.body).to.have.property('episodes');
-        expect(response.body['episodes']).to.eq(url+"/episode");
+        expect(response.body['episodes']).to.eq(url+"episode");
     })
 });
 
