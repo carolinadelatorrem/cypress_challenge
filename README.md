@@ -32,7 +32,11 @@ npm install
 
 ## Headless mode
 
-- Run `npm run run-cypress` to run all tests in headless mode.
+- Run `npm run run-all-cypress` to run all tests in headless mode.
+
+- Run `npm run run-web-cypress` to run e2e tests in headless mode.
+
+- Run `npm run run-api-cypress` to run API tests. 
 
 ## Interactive mode
 
